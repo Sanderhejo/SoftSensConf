@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SoftSensConf.exe" version="1.0.0.0" publicKeyToken="f277ef10059f5b2d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SoftSensConf" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SoftSensConf.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SoftSensConf.exe" size="67040">
+      <assemblyIdentity name="SoftSensConf" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fNXu1sEuSbwZ5pkmexg/C4/Z2rqg2kfs6CeVvrW9C1w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SoftSensConf.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-E0VKFC38\sande" issuerKeyHash="af2cebf0795eacb3b50f959e29f1f064fd8f7e98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+l8Qnld4jlLZDyCLbxq5bCjo7nRnEUS+D+/9TfaDKuE=</DigestValue></Reference></SignedInfo><SignatureValue>fOn35BAuz6pAoA7RR4f8RfGIQhEi/4W+zatBUgulKD3QN42OweiJ7KSLNWg02Te6CJBYyAwnHyT9Sp4TXVjAYD6y7b6bNRy+F2CZOAS1L2MSmBqNuz7q4r4DwqyQQX5TuQpOzaEuub2kmBSXyMtE/Sg6RMi4zlo/YCDzPqHjdCc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sZ1oL7ExCVNgRJP7Zb6ZcH027WV6uVNetxm2oAuuiFFQVI9n1Kg9oleQ+VRzdnq14fk/vX5qEMQLCU85dHaY804+hLphlGMYZKUplnXw+yQKBW+URqYD8mWBO3Hzd/vXHDflsYVqaNC6HGD0ZXbARbTRtBHvi6/3VACAu92OH9U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e12a83f64dfdef0fbe44116774eee8286cb91a6f8b200fd9528e78579e105ffa" Description="" Url=""><as:assemblyIdentity name="SoftSensConf.exe" version="1.0.0.0" publicKeyToken="f277ef10059f5b2d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-E0VKFC38\sande</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O7v5FtgZ1S9S3pwz2aN4FdoK2XlhpH+KHioNWu1Y2nw=</DigestValue></Reference></SignedInfo><SignatureValue>KFEqkstetjX+KDifX+mMJ15hlyqLdK+ykADfrhpGRDst5JPMGHfGUV3GLZhq0rtNIimhUMkN69gDWjuOc9RadezVlcYl0XGLFXMaovWfZepvpDhWNMAGBlBeCS507ka5+dnbIzbtfhuMgwW0eCnpBMLqFuN3OzPaGQB3UH3H6w0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sZ1oL7ExCVNgRJP7Zb6ZcH027WV6uVNetxm2oAuuiFFQVI9n1Kg9oleQ+VRzdnq14fk/vX5qEMQLCU85dHaY804+hLphlGMYZKUplnXw+yQKBW+URqYD8mWBO3Hzd/vXHDflsYVqaNC6HGD0ZXbARbTRtBHvi6/3VACAu92OH9U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQJ5VLKX41MrBH9RmE8U00VTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBFADAAVgBLAEYAQwAzADgAXABzAGEAbgBkAGUwHhcNMjEwMjI4MTYyOTA1WhcNMjIwMjI4MjIyOTA1WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBFADAAVgBLAEYAQwAzADgAXABzAGEAbgBkAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALGdaC+xMQlTYEST+2W+mXB9Nu1lerlTXrcZtqALrohRUFSPZ9SoPaJXkPlUc3Z6teH5P71+ahDECwlPOXR2mPNOPoS6YZRjGGSlKZZ18PskCgVvlEamA/JlgTtx83f71xw35bGFamjQuhxg9GV2wEW00bQR74uv91QAgLvdjh/VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEADgd+LyHSJNd3YV0egXlTMisSzGWx1SKC3zBZpqNIJOC738Qqbx4nKDGcl6JiQ0MV0rIRSg4ycw+iqM6f+nKyVKx9IBPtLSn5XTtpXPAdxhnF5dD82Pu2i+Vg7fIBwAWVK9+59LCZrrxGzgToEVR4zbE1KRoGG4xsHIwhGqdBm6E=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
